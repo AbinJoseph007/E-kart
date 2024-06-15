@@ -26,7 +26,7 @@ function Wishlist() {
                   <p className='fw-bolder'>Price : {item.price}</p>
                 </Card.Text>
                 <div className='d-flex align-items-center justify-content-between'>
-                  <Button onClick={()=>dispatch(removeFromWishlist(item.id))} variant="outline-dark btn rounded"><i class="fa-regular fa-trash"></i></Button>
+                  <Button onClick={() => dispatch(removeFromWishlist(item.id))} variant="outline-dark btn rounded"><i class="fa-regular fa-trash"></i></Button>
                   <Button variant="outline-dark btn rounded"><i class="fa-solid fa-cart-shopping"></i></Button>
                 </div>
 
